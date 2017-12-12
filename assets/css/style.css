@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+    background-color: #018390;
+    font-family: 'Lobster', cursive;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+}
+
+.left,
+.right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+    font-size: 80px;
+}
+
+.left {
+    left: 8%;
+}
+
+.right {
+    left: 90%;
+}
+
+.buttons {
+    margin-top: 1%;
+    display: flex; 
+    justify-content: center;
+}
+
+.buttons li {
+    font-size: 20px;
+    margin-left: 1%;
+    color: white;
+    cursor: pointer;
+}
